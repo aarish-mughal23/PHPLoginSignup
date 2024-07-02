@@ -40,7 +40,7 @@ if(isset($_POST["submit"]) && !empty($_POST["submit"]) && $_POST["submit"]=="Log
                         <div class="row mb-4">
                             <div class="col">
                                 <div class="card-items">
-                                    <h3 class="display-5">Welcome, <?= $_SESSION["user"]["email"] ?></h3>
+                                    <h3 class="display-5">Moon, <?= $_SESSION["user"]["email"] ?></h3>
                                 </div>
                             </div>
                         </div>
